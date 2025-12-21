@@ -5,6 +5,7 @@
 #include <vector>
 #include <set>
 
+// Function to decide if the arg s is made out of a repeating pattern
 bool isInvalid(const std::string& s) {
     const size_t n = s.size();
     // Try for every possible pattern length until n/2
